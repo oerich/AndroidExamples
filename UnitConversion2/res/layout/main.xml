@@ -4,38 +4,17 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
- <LinearLayout android:id="@+id/row01"
- 	android:orientation="horizontal"
- 	android:layout_width="fill_parent"
- 	android:layout_height="wrap_content"
- 	>   
-<EditText android:id="@+id/value01"
-	android:layout_width="0dp"
-	android:layout_weight="1"
+<TextView
+	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
-	android:hint="Enter temperature"
+	android:text = "Conversions"
+	android:textSize = "24sp"
 	/>
-<Spinner android:id="@+id/unit01"
-	android:layout_width="wrap_content"
+
+<ListView android:id="@+id/conversionsList"
+	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
-	android:spinnerMode="dropdown"
+	android:entries = "@array/conversions"
 	/>
-</LinearLayout>
- <LinearLayout android:id="@+id/row01"
- 	android:orientation="horizontal"
- 	android:layout_width="fill_parent"
- 	android:layout_height="wrap_content"
- 	>   
-<EditText android:id="@+id/value02"
-	android:layout_width="0dp"
-	android:layout_weight="1"
-	android:layout_height="wrap_content"
-	android:hint="Enter temperature"
-	/>
-<Spinner android:id="@+id/unit02"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:spinnerMode="dropdown"
-	/>
-</LinearLayout>
+
 </LinearLayout>
