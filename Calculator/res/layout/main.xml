@@ -4,23 +4,10 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<LinearLayout
-    android:orientation="horizontal"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    >
-<EditText android:id="@+id/val01"
-	android:layout_width="0dp"
+<EditText android:id="@+id/val"
+	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
-	android:layout_weight="1"
-	android:hint="val01"
 	/>
-<EditText android:id="@+id/val02"
-	android:layout_width="0dp"
-	android:layout_height="wrap_content"
-	android:layout_weight="1"
-	/>
-</LinearLayout>
 <LinearLayout
     android:orientation="horizontal"
     android:layout_width="fill_parent"
@@ -45,7 +32,7 @@
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
 	android:onClick="doCalc"
-	android:text="-"
+	android:text="*"
 	/>
 <Button android:id="@+id/opDiv"
 	android:layout_width="0dp"
@@ -54,18 +41,121 @@
 	android:onClick="doCalc"
 	android:text="/"
 	/>
-</LinearLayout>
-<RelativeLayout
-	android:layout_width="fill_parent"
+<Button android:id="@+id/opEq"
+	android:layout_width="0dp"
+	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	>
-<TextView android:id="@+id/result"
-    android:layout_width="wrap_content"
+	android:onClick="doCalc"
+	android:text="="
+	/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:textSize="24sp"
-    android:layout_centerInParent="true"
-    android:text="Muppen"
-    />
-</RelativeLayout>
+    >
+<Button android:id="@+id/val7"
+	android:layout_width="0dp"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:onClick="enterDigit"
+	android:text="7"
+	/>
+<Button android:id="@+id/val8"
+	android:layout_width="0dp"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:onClick="enterDigit"
+	android:text="8"
+	/>
+<Button android:id="@+id/val9"
+	android:layout_width="0dp"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:onClick="enterDigit"
+	android:text="9"
+	/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<Button android:id="@+id/val4"
+	android:layout_width="0dp"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:onClick="enterDigit"
+	android:text="4"
+	/>
+<Button android:id="@+id/val5"
+	android:layout_width="0dp"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:onClick="enterDigit"
+	android:text="5"
+	/>
+<Button android:id="@+id/val6"
+	android:layout_width="0dp"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:onClick="enterDigit"
+	android:text="6"
+	/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<Button android:id="@+id/val1"
+	android:layout_width="0dp"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:onClick="enterDigit"
+	android:text="1"
+	/>
+<Button android:id="@+id/val2"
+	android:layout_width="0dp"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:onClick="enterDigit"
+	android:text="2"
+	/>
+<Button android:id="@+id/val3"
+	android:layout_width="0dp"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:onClick="enterDigit"
+	android:text="3"
+	/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<Button android:id="@+id/clear"
+	android:layout_width="0dp"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:onClick="enterDigit"
+	android:text="C"
+	/>
+<Button android:id="@+id/dot"
+	android:layout_width="0dp"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:onClick="enterDigit"
+	android:text="."
+	/>
+<Button android:id="@+id/val0"
+	android:layout_width="0dp"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:onClick="enterDigit"
+	android:text="0"
+	/>
+</LinearLayout>
 </LinearLayout>
 
