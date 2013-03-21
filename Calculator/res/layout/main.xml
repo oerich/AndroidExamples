@@ -17,35 +17,30 @@
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="doCalc"
 	android:text="+"
 	/>
 <Button android:id="@+id/opMinus"
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="doCalc"
 	android:text="-"
 	/>
 <Button android:id="@+id/opMult"
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="doCalc"
 	android:text="*"
 	/>
 <Button android:id="@+id/opDiv"
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="doCalc"
 	android:text="/"
 	/>
 <Button android:id="@+id/opEq"
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="doCalc"
 	android:text="="
 	/>
 </LinearLayout>
@@ -58,21 +53,18 @@
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="enterDigit"
 	android:text="7"
 	/>
 <Button android:id="@+id/val8"
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="enterDigit"
 	android:text="8"
 	/>
 <Button android:id="@+id/val9"
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="enterDigit"
 	android:text="9"
 	/>
 </LinearLayout>
@@ -85,21 +77,18 @@
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="enterDigit"
 	android:text="4"
 	/>
 <Button android:id="@+id/val5"
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="enterDigit"
 	android:text="5"
 	/>
 <Button android:id="@+id/val6"
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="enterDigit"
 	android:text="6"
 	/>
 </LinearLayout>
@@ -112,21 +101,18 @@
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="enterDigit"
 	android:text="1"
 	/>
 <Button android:id="@+id/val2"
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="enterDigit"
 	android:text="2"
 	/>
 <Button android:id="@+id/val3"
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="enterDigit"
 	android:text="3"
 	/>
 </LinearLayout>
@@ -139,23 +125,19 @@
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="enterDigit"
 	android:text="C"
 	/>
 <Button android:id="@+id/dot"
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="enterDigit"
 	android:text="."
 	/>
 <Button android:id="@+id/val0"
 	android:layout_width="0dp"
 	android:layout_weight="1"
 	android:layout_height="wrap_content"
-	android:onClick="enterDigit"
 	android:text="0"
 	/>
 </LinearLayout>
 </LinearLayout>
-
